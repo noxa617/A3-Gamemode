@@ -4,7 +4,7 @@
 US_VOA = 0; // can elevate all the way to 10
 US_LOW_CT = ["Low Counter Attack", "Mid Counter Attack", "High Counter Attack"];
 
-flagList= ["AgiaMarinaFlag", "CampRogainFlag"];
+flagList = ["AgiaMarinaFlag", "CampRogainFlag"];
 townsList = ["AgiaMarina", "CampRogain"];
 _max = (count townsList)-1 ;
 
