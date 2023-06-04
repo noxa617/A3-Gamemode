@@ -9,7 +9,8 @@ _trigger = createTrigger ["EmptyDetector", getMarkerPos _FOB, true];
 _trigger setVariable ["CampRogainTriggerBLU", _trigger];
 _trigger setTriggerArea [150, 150, 0, false, 5];
 _trigger setTriggerActivation ["WEST SEIZED", "PRESENT", true];
-_trigger setTriggerStatements ["this", "(missionNamespace getVariable 'CampRogainFlag') addaction ['Capture Area',{Trigger_Rogain = true; publicVariable 'Trigger_Rogain';}];", ""];
+_trigger setTriggerStatements ["this", "(missionNamespace getVariable 'CampRogainFlag') 
+addaction ['Capture Area',{Trigger_Rogain = true; publicVariable 'Trigger_Rogain';}];", ""];
 
 // trigger applies changes to marker and flag
 _triggerChanges = createTrigger ["EmptyDetector", getMarkerPos _FOB, true];
